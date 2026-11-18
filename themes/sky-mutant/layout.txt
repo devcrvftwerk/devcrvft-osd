@@ -1,0 +1,14 @@
+# SKY MUTANT: the Smiley Patch lives in your goggles: it grins on a full pack and melts when you push it too far
+set osd_avg_cell_voltage_pos = 2401
+set osd_crosshairs_pos = 2253
+set osd_flymode_pos = 2456
+set osd_link_quality_pos = 2081
+set osd_pilot_name_pos = 2443
+set osd_rssi_dbm_pos = 2433
+set osd_throttle_pos = 2423
+set osd_tim_2_pos = 2103
+set osd_warnings_pos = 2346
+set osd_craft_name_pos = 395
+set osd_current_pos = 384
+set osd_vbat_pos = 353
+set osd_vtx_channel_pos = 33

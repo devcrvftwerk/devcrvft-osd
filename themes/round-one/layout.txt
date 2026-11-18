@@ -1,0 +1,22 @@
+# ROUND 1: every pack is a fight and gravity is the opponent: life bar, round timer, K.O.
+set osd_avg_cell_voltage_pos = 2113
+set osd_battery_usage_pos = 2081
+set osd_craft_name_pos = 2134
+set osd_crosshairs_pos = 2253
+set osd_flymode_pos = 2457
+set osd_link_quality_pos = 2103
+set osd_pilot_name_pos = 2120
+set osd_throttle_pos = 2433
+set osd_tim_2_pos = 2095
+set osd_total_flights_pos = 2130
+set osd_warnings_pos = 2346
+set osd_current_pos = 384
+set osd_rssi_dbm_pos = 289
+set osd_vbat_pos = 353
+set osd_vtx_channel_pos = 33
+# the opponent's name on the HUD (craft_name; in set_settings' allowlist)
+set craft_name = GRAVITY
+# NEEDED for the life bar: Betaflight draws it from mAh used against bat_capacity, which is 0 on his whoop today (so the bar would sit empty); 480 = his LAVA II packs. Not in set_settings' allowlist: opening it is his call. The bar also trusts the whoop's current sensor (ibata_scale 750), not yet checked against a meter.
+set bat_capacity = 480
+# NEEDED for the round counter: stats are off on his whoop (-1), so total flights stays 0; 15 counts a flight after 15 s armed. Not in set_settings' allowlist: his call.
+set stats_min_armed_time_s = 15
